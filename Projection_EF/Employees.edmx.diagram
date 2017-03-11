@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff537f3a32e8491a89a72e2efab957c1" Name="Diagram1">
+        <EntityTypeShape EntityType="AdventureWorks2014Model.Department" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2014Model.Employee" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2014Model.EmployeeDepartmentHistory" Width="1.5" PointX="3.125" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="AdventureWorks2014Model.FK_EmployeeDepartmentHistory_Department_DepartmentID" ManuallyRouted="false" />
+        <AssociationConnector Association="AdventureWorks2014Model.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
